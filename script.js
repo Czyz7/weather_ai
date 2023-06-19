@@ -3,7 +3,8 @@ function getWeather() {
     const location = locationInput.value;
   
     // Make an API call to fetch weather data
-    fetch(`https://api.openweathermap.org/data/2.5/weather?q=${location}&appid=YOUR_API_KEY`)
+    fetch(`https://api.openweathermap.org/data/2.5/weather?q=${location}&appid=
+    YOUR_API_KEY`)
       .then(response => response.json())
       .then(data => {
         // Extract relevant information from the response
