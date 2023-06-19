@@ -1,0 +1,35 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  /* Weather application specific styles */
+  #locationInput {
+    width: 200px;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #04b0ef;
+    color: rgb(0, 0, 0);
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  #weatherContainer {
+    margin-top: 20px;
+  }
+  
